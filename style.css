@@ -1,0 +1,24 @@
+1@font-face {
+
+    font-family: standard 07_53; /* имя шрифта для CSS правил */
+
+    src: local("standard 07_53"), /* проверяем наличие шрифта в ОС пользователя */
+
+    url(stan0753.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+
+}
+
+
+div, input{
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+    color: white;
+    width: 400px;
+    font-family: standard 07_53;
+
+}
+body{
+    text-aling: center;
+}
+
