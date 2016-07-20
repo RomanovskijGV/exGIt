@@ -5,7 +5,7 @@
 /config/secrets.yml
 /log/*
 !/log/.keep
-/tmp
+/tmp58
 /.idea
 /**/*~
 /public/**
